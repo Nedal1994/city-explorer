@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body
+{
+  background-color: rgb(246,223,196);
+}
+button
+{
+  padding: 5px;
+  border-radius: 4px;
+  border: 0.25pt;
+  color: white;
+  background-color: rgb(13,110,253);
+}
+button:hover
+{
+  color: rgb(0, 0, 0);
+  background-color: rgb(253, 13, 33);
+}
+button:active
+{
+  color: white;
+  background-color: rgb(88, 0, 88);
+}
+
+header
+{
+  background-color: rgb(51,58,63);
+  height: 35pt;
+  color:white;
+}
+#citytext
+{
+  width: 90%;
+  height: 25px;
+  border: 0.25pt solid;
+  background-color: rgb(231,239,255);
+}
+div
+{
+  text-align: center;
+}
