@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React from 'react'
 
+
+// lab 6
 class App extends React.Component
 {
   constructor(props)
