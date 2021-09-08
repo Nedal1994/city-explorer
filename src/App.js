@@ -28,8 +28,8 @@ class App extends React.Component
     event.preventDefault()
     const cityName = event.target.cityName.value
     const URL = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_KEY}&q=${cityName}&format=json`
-    const weatherUrl = `https://lap7.herokuapp.com/weather?city_name=${cityName}`
-    // const weatherUrl = `http://localhost:3200/weather?city_name=${cityName}&lat=${this.state.lat}&lon=${this.state.lon}`
+    // const weatherUrl = `https://lap7.herokuapp.com/weather?city_name=${cityName}`
+    const weatherUrl = `http://localhost:3200/weather?city_name=${cityName}&lat=${this.state.lat}&lon=${this.state.lon}`
     
 console.log('ok')
     try{
