@@ -7,13 +7,11 @@ class WeatherDay extends React.Component
   {
     return(
       <div>
-        {this.props.weatherData.map((item)=>
-        {
          <Card>
-           <Card.Text>Date: {item.date}</Card.Text>
-           <Card.Text>Description: {item.description}</Card.Text>
+           <Card.Text>Date: {this.props.date}</Card.Text>
+           <Card.Text>Description: {this.props.description}</Card.Text>
         </Card> 
-        })}
+        
         
       </div>
     )
