@@ -8,17 +8,17 @@ class Movie extends React.Component
   {
     return(
       <div>
-        {this.props.moviesData.map((item)=>
-        {
+         
          <Card>
-           <Card.Text>Title: {item.title}</Card.Text>
-           <Card.Text>Overview: {item.overview}</Card.Text>
-           <Card.Text>Release date: {item.release_date}</Card.Text>
-           <Card.Text>Popularity: {item.popularity}</Card.Text>
-           <Card.Text>Average votes: {item.vote_average}</Card.Text>
-           <Card.Text>Vote counts: {item.vote_count}</Card.Text>
+           <Card.Text>Title: {this.props.title}</Card.Text>
+           <Card.Text>{this.props.poster_path}</Card.Text>
+           <Card.Text>Overview: {this.props.overview}</Card.Text>
+           <Card.Text>Release date: {this.props.release_date}</Card.Text>
+           <Card.Text>Popularity: {this.props.popularity}</Card.Text>
+           <Card.Text>Average votes: {this.props.vote_average}</Card.Text>
+           <Card.Text>Vote counts: {this.props.vote_count}</Card.Text>
         </Card> 
-        })}
+        
         
       </div>
     )
